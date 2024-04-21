@@ -23,6 +23,7 @@
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+  
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
@@ -97,7 +98,7 @@
       <h2>We strive to drive progress in the digital age</h2>
       <div class="d-flex">
         <a href="#about" class="btn-get-started scrollto">Get Started</a>
-        <a href="https://youtu.be/McepeMkd4bE" class="glightbox btn-watch-video"><i class="bi bi-play-circle"></i><span>Watch Video</span></a>
+        <a href="https://youtu.be/McepeMkd4bE" class="glightbox btn-watch-video"><i class="bi bi-play-circle" style="color: #00ff2a;"></i><span>Watch Video</span></a>
       </div>
     </div>
   </section><!-- End Hero -->
@@ -107,6 +108,9 @@
         <div class="container" data-aos="zoom-in">
   
           <div class="row">
+            <div class="col-lg-2">
+
+            </div>
             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img src="assets/img/clients/client-1.png" class="img-fluid" alt=""> 
             </div>
@@ -130,6 +134,10 @@
             <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
               <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
             </div> -->
+
+            <div class="col-lg-2">
+              
+            </div>
           </div>
         
         </div>
@@ -572,22 +580,25 @@
         </div>
 
         <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
+            
             <img src="assets/img/portfolio/CP.png" class="img-fluid" alt="">
+            
             <div class="portfolio-info">
               <h4>Call Pad</h4>
-              <p>Pad</p>
+              <p>Price</p>
               <a href="assets/img/portfolio/CP.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Call Pad"><i class="bi bi-zoom-in"></i></a>
               <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
             </div>
+            
           </div>
+          
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <img src="assets/img/portfolio/MK.png" class="img-fluid" alt="">
             <div class="portfolio-info">
               <h4>Metal Keyboard</h4>
-              <p>Keyboard</p>
+              <p>Price</p>
               <a href="assets/img/portfolio/MK.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Metal Keyboard"><i class="bi bi-zoom-in"></i></a>
               <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
             </div>
@@ -670,6 +681,7 @@
               <p>System</p>
               <a href="assets/img/portfolio/QSK.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Queuing System Kiosk"><i class="bi bi-zoom-in"></i></a>
               <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+              <button class="" id="showProductQueuingSystem" data-target="#QueuingSystemProduct"><i class="bx bx-link"></i></button>
             </div>
           </div>
 
@@ -680,6 +692,7 @@
               <p>Monitor</p>
               <a href="assets/img/portfolio/M.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="LCD Monitor"><i class="bi bi-zoom-in"></i></a>
               <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+              <button class="" id="showProductLCDMonitor" data-target="#LCDMonitorProduct"><i class="bx bx-link"></i></button>
             </div>
           </div>
 
@@ -690,6 +703,7 @@
               <p>CPU</p>
               <a href="assets/img/portfolio/DSD.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Mini CPU"><i class="bi bi-zoom-in"></i></a>
               <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+              <button class="" id="showProductMiniCPU" data-target="#MiniCPUProduct"><i class="bx bx-link"></i></button>
             </div>
           </div>
 
@@ -700,6 +714,7 @@
               <p>Interactive Board</p>
               <a href="assets/img/portfolio/SIB.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Smart Interactive Board"><i class="bi bi-zoom-in"></i></a>
               <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+              <button class="" id="showProductSmartBoard" data-target="#SmartBoardProduct"><i class="bx bx-link"></i></button>
             </div>
           </div>
 
@@ -709,6 +724,7 @@
               <h4>Indoor/Outdoor Digital Dance Floor Led Display</h4>
               <p>LED Display</p>
               <a href="assets/img/portfolio/DFD.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Indoor/Outdoor Digital Dance Floor Led Display"><i class="bi bi-zoom-in"></i></a>
+              <button class="" id="showProductLEDDisplay" data-target="#LEDDisplayProduct"><i class="bx bx-link"></i></button>
               <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
             </div>
           </div>
@@ -719,12 +735,156 @@
               <h4>Video Wall</h4>
               <p>Video Wall</p>
               <a href="assets/img/portfolio/VW.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Video Wall"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+              <a href="product-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> 
+              <button class="" id="showProductVideoWall" data-target="#videoWallProduct"><i class="bx bx-link"></i></button>
             </div>
           </div>
 
         </div>
 
+        <div class="row border">
+          <!-- Second slide -->
+          <div class="carousel slide">
+            <br>
+        <!-- Indicators/dots -->
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+        </div>
+      
+        <div class="carousel-inner">
+          <div class="carousel-item">
+            <div class="row">
+              <h1>Top-Selling Items</h1>
+            </div>
+
+            <div class="row">
+              <div class="col-md-1">
+
+              </div>
+              <div class="col-md-3">
+                <div class="shadow card mb-4">
+                  <div class="card-body">
+                    <span class="badge rounded-pill bg-danger">Tag 1</span>
+                    <span class="badge rounded-pill bg-warning">Tag 2</span>
+                    <span class="badge rounded-pill bg-success">Tag 3</span>
+                    <div class="container border mb-2">
+                      <div class="row border">
+                        <div class="text-center">
+                          <img src="media/Products/Video Wall.png" class="img-fluid rounded product-images">
+                        </div>
+                      </div>
+                      <div class="row border">
+                        <p>Product Name</p>
+                      </div>
+
+                      <div class="row border">
+                        <p>Price</p>
+
+                      </div>
+
+                      <div class="row border">
+                        
+                        <div class="text-center">
+                          
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class=""></span>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-4">
+                <div class="shadow card mb-4">
+                  <div class="card-body">
+                    <span class="badge rounded-pill bg-warning">Tag 1</span>
+                    <span class="badge rounded-pill bg-success">Tag 2</span>
+                    <div class="container border mb-2">
+                      <div class="row border">
+                        <div class="text-center">
+                          <img src="media/Products/Digital Dancefloor LED Display.png" class="img-fluid rounded product-images">
+                        </div>
+                      </div>
+                      <div class="row border">
+                        <p>Product Name</p>
+                      </div>
+
+                      <div class="row border">
+                        <p>Price</p>
+
+                      </div>
+                      <div class="row border">
+                        
+                        <div class="text-center">
+                          
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-md-3">
+                <div class="shadow card mb-4">
+                  <div class="card-body">
+                    <span class="badge rounded-pill bg-success">Tag 1</span>
+                    <div class="container border mb-2">
+                      <div class="row border">
+                        <div class="text-center">
+                          <img src="media/Products/Queuing System Kiosk.png" class="img-fluid rounded product-images">
+                        </div>
+                      </div>
+                      <div class="row border">
+                        <p>Product Name</p>
+                      </div>
+
+                      <div class="row border">
+                        <p>Price</p>
+
+                      </div>
+                      <div class="row border">
+                        
+                        <div class="text-center">
+                          
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class="">⭐</span>
+                            <span class=""></span>
+                            <span class=""></span>
+                            
+                        </div>
+                    </div>
+                    </div>
+                    <div class="text-center">
+                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -732,6 +892,7 @@
     <section id="team" class="team section-bg">
       <div class="container" data-aos="fade-up">
 
+        <!--
         <div class="section-title">
           <h2>Team</h2>
           <h3>Our Hardworking <span>Team</span></h3>
@@ -813,7 +974,7 @@
           </div>
 
         </div>
-
+      -->
       </div>
     </section><!-- End Team Section -->
 
@@ -1092,11 +1253,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#hero">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#about">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#services">Products</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#team">Team</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#contact">Contact</a></li>
+              <li><i class=""></i> <a href="#hero"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Home</span></a></li>
+              <li><i class=""></i> <a href="#about"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">About us</span></a></li>
+              <li><i class=""></i> <a href="#services"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Products</span></a></li>
+              <li><i class=""></i> <a href="#team"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Team</span></a></li>
+              <li><i class=""></i> <a href="#contact"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Contact</span></a></li>
             </ul>
           </div>
 
@@ -1142,7 +1303,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short" style="color: #00ff2a;"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
@@ -1157,6 +1318,22 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script>
+    $(document).ready(function() {
+        $('#showProductVideoWall').click(function() {
+            var targetSection = $(this).data('target');
+            localStorage.setItem('targetSection', targetSection);
+            window.location.href = 'product-details.html';
+        });
+
+        $('#showProductLEDDisplay').click(function() {
+          var targetSection = $(this).data('target');
+            localStorage.setItem('targetSection', targetSection);
+            window.location.href = 'product-details.html';
+        });
+      });
+        </script>
 </body>
 
 </html>

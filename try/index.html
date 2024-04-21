@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <button id="showProduct1" data-target="#firstProduct">Show Product 1 Details</button>
+    <button id="showProduct2" data-target="#secondProduct">Show Product 2 Details</button>
+    <button id="showProduct3" data-target="#thirdProduct">Show Product 3 Details</button>
+
+    <script>
+        $(document).ready(function() {
+            $('#showProduct1').click(function() {
+                var targetSection = $(this).data('target');
+                localStorage.setItem('targetSection', targetSection);
+                window.location.href = 'portfolio-details.html';
+            });
+
+            $('#showProduct2').click(function() {
+                var targetSection = $(this).data('target');
+                localStorage.setItem('targetSection', targetSection);
+                window.location.href = 'portfolio-details.html';
+            });
+
+            $('#showProduct3').click(function() {
+                var targetSection = $(this).data('target');
+                localStorage.setItem('targetSection', targetSection);
+                window.location.href = 'portfolio-details.html';
+            });
+        });
+    </script>
+</body>
+</html>

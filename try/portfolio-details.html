@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Details Page</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <style>
+        .product-details {
+            display: none;
+        }
+        .product-details.show {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <section id="firstProduct" class="product-details">Product 1 Details</section>
+    <section id="secondProduct" class="product-details">Product 2 Details</section>
+    <section id="thirdProduct" class="product-details">Product 3 Details</section>
+    <p>default item</p>
+    <script>
+        $(document).ready(function() {
+            var targetSection = localStorage.getItem('targetSection');
+            console.log('Target Section:', targetSection); // Add this line for debugging
+            if (targetSection) {
+                $(targetSection).addClass('show');
+                console.log('Added show class to:', targetSection); // Add this line for debugging
+            }
+        });
+    </script>
+</body>
+</html>
