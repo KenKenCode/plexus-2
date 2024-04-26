@@ -63,9 +63,10 @@
           <li class="dropdown"><a href="#services"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#portfolio">Other Products</a></li>
+              <li><p>Paragraph</p></li>
             </ul>
           <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
-          <li><a class="nav-link scrollto" href="#team">Team</a></li>
+          <!--<li><a class="nav-link scrollto" href="#team">Team</a></li>-->
           <!-- <li class="dropdown"><a href="#"><span>Drop Down</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
@@ -161,8 +162,11 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bx bx-file"></i></div>
+              
               <h4 class="title"><a href="">Sed ut perspiciatis</a></h4>
               <p class="description">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              
+              
             </div>
           </div>
 
@@ -192,7 +196,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>About</h2>
+          <h2 style="background-color: #baebc2">About</h2>
           <h3>Find Out More <span>About Us</span></h3>
           <p>Founded on February 15, 2024</p>
         </div>
@@ -419,7 +423,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Products</h2>
+          <h2 style="background-color: #baebc2">Products</h2>
           <h3>Check our <span>Products</span></h3>
           <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque vitae autem.</p>
         </div>
@@ -435,9 +439,12 @@
 
           <div class="col-lg-4 col-md-6 d-flex align-items-stretch mt-4 mt-md-0" data-aos="zoom-in" data-aos-delay="200">
             <div class="icon-box">
+              
               <div class="icon"><i class="bx bx-file"></i></div>
               <h4><a href="">Sed ut perspiciatis</a></h4>
               <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore</p>
+              
+              
             </div>
           </div>
 
@@ -562,7 +569,7 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Other Products</h2>
+          <h2 style="background-color: #baebc2">Other Products</h2>
           <h3>Check our <span>Other Products</span></h3>
           <p>These products are divided into three categories: Input Devices and Components (IDC),
             Display Systems and Interactive Boards (DSIB), and Queue Management Systems (QMS).</p>
@@ -571,10 +578,10 @@
         <div class="row" data-aos="fade-up" data-aos-delay="100">
           <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">All</li>
-              <li data-filter=".filter-app">IDC</li>
-              <li data-filter=".filter-card">DSIB</li>
-              <li data-filter=".filter-web">QMS</li>
+              <li data-filter="*" class="filter-active" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">All</li>
+              <li data-filter=".filter-app" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">IDC</li>
+              <li data-filter=".filter-card" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">DSIB</li>
+              <li data-filter=".filter-web" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">QMS</li>
             </ul>
           </div>
         </div>
@@ -741,150 +748,7 @@
           </div>
 
         </div>
-
-        <div class="row border">
-          <!-- Second slide -->
-          <div class="carousel slide">
-            <br>
-        <!-- Indicators/dots -->
-        <div class="carousel-indicators">
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
-          <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
-        </div>
-      
-        <div class="carousel-inner">
-          <div class="carousel-item">
-            <div class="row">
-              <h1>Top-Selling Items</h1>
-            </div>
-
-            <div class="row">
-              <div class="col-md-1">
-
-              </div>
-              <div class="col-md-3">
-                <div class="shadow card mb-4">
-                  <div class="card-body">
-                    <span class="badge rounded-pill bg-danger">Tag 1</span>
-                    <span class="badge rounded-pill bg-warning">Tag 2</span>
-                    <span class="badge rounded-pill bg-success">Tag 3</span>
-                    <div class="container border mb-2">
-                      <div class="row border">
-                        <div class="text-center">
-                          <img src="media/Products/Video Wall.png" class="img-fluid rounded product-images">
-                        </div>
-                      </div>
-                      <div class="row border">
-                        <p>Product Name</p>
-                      </div>
-
-                      <div class="row border">
-                        <p>Price</p>
-
-                      </div>
-
-                      <div class="row border">
-                        
-                        <div class="text-center">
-                          
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            <span class=""></span>
-                            
-                        </div>
-                    </div>
-                    </div>
-                    <div class="text-center">
-                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-4">
-                <div class="shadow card mb-4">
-                  <div class="card-body">
-                    <span class="badge rounded-pill bg-warning">Tag 1</span>
-                    <span class="badge rounded-pill bg-success">Tag 2</span>
-                    <div class="container border mb-2">
-                      <div class="row border">
-                        <div class="text-center">
-                          <img src="media/Products/Digital Dancefloor LED Display.png" class="img-fluid rounded product-images">
-                        </div>
-                      </div>
-                      <div class="row border">
-                        <p>Product Name</p>
-                      </div>
-
-                      <div class="row border">
-                        <p>Price</p>
-
-                      </div>
-                      <div class="row border">
-                        
-                        <div class="text-center">
-                          
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            
-                        </div>
-                    </div>
-                    </div>
-                    <div class="text-center">
-                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-
-              <div class="col-md-3">
-                <div class="shadow card mb-4">
-                  <div class="card-body">
-                    <span class="badge rounded-pill bg-success">Tag 1</span>
-                    <div class="container border mb-2">
-                      <div class="row border">
-                        <div class="text-center">
-                          <img src="media/Products/Queuing System Kiosk.png" class="img-fluid rounded product-images">
-                        </div>
-                      </div>
-                      <div class="row border">
-                        <p>Product Name</p>
-                      </div>
-
-                      <div class="row border">
-                        <p>Price</p>
-
-                      </div>
-                      <div class="row border">
-                        
-                        <div class="text-center">
-                          
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            <span class="">⭐</span>
-                            <span class=""></span>
-                            <span class=""></span>
-                            
-                        </div>
-                    </div>
-                    </div>
-                    <div class="text-center">
-                      <a href="#" class="btn btn-outline-secondary">Learn More</a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            </div>
-          </div>
-          </div>
-        </div>
+        
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -1144,13 +1008,14 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>Contact</h2>
+          <h2 style="background-color: #baebc2">Contact</h2>
           <h3><span>Contact Us</span></h3>
           <p>Connect with us.</p>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-6">
+          <div class="container col-sm-6">
+          <div class="col-lg-12">
             <div class="info-box mb-4">
               <i class="bx bx-map"></i>
               <h3>Our Address</h3>
@@ -1160,32 +1025,42 @@
             </div>
           </div>
 
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
+          
+          <div class="row">
+          <div class="col-lg-12">
+            <div class="info-box mb-4">
               <i class="bx bx-envelope"></i>
               <h3>Email Us</h3>
               <p>SALES@PLEXUSTEC.NET</p>
             </div>
           </div>
-
-          <div class="col-lg-3 col-md-6">
-            <div class="info-box  mb-4">
+          </div>
+          
+          <div class="row">
+          <div class="col-lg-12">
+            <div class="info-box mb-4">
               <i class="bx bx-phone-call"></i>
               <h3>Call Us</h3>
               <p>0976 462 8759</p>
             </div>
           </div>
+        </div>
 
+        </div>
+
+        <div class="col-lg-6" style="padding-top: 100px;">
+
+          <!-- <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe> -->
+          <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15445.957193496546!2d121.0909315104486!3d14.57117239887705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c32a38f257%3A0xd2cd1d7959268af3!2s28%2C%203%20Eusebio%2C%20Pasig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1713323721026!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
+          <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15445.957193496546!2d121.0909315104486!3d14.57117239887705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c32a38f257%3A0xd2cd1d7959268af3!2s28%2C%203%20Eusebio%2C%20Pasig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1713323721026!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+        </div>
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
 
-          <div class="col-lg-6 ">
-            <!-- <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe> -->
-            <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15445.957193496546!2d121.0909315104486!3d14.57117239887705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c32a38f257%3A0xd2cd1d7959268af3!2s28%2C%203%20Eusebio%2C%20Pasig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1713323721026!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
-            <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15445.957193496546!2d121.0909315104486!3d14.57117239887705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c32a38f257%3A0xd2cd1d7959268af3!2s28%2C%203%20Eusebio%2C%20Pasig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1713323721026!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-          </div>
+          
 
+          <!--
           <div class="col-lg-6">
             <form action="forms/contact.php" method="post" role="form" class="php-email-form">
               <div class="row">
@@ -1210,6 +1085,7 @@
               <div class="text-center"><button type="submit">Send Message</button></div>
             </form>
           </div>
+        -->
 
         </div>
 
@@ -1253,11 +1129,11 @@
           <div class="col-lg-3 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class=""></i> <a href="#hero"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Home</span></a></li>
-              <li><i class=""></i> <a href="#about"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">About us</span></a></li>
-              <li><i class=""></i> <a href="#services"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Products</span></a></li>
-              <li><i class=""></i> <a href="#team"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Team</span></a></li>
-              <li><i class=""></i> <a href="#contact"><span style="display: inline-block; background-color: #00ff2a; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Contact</span></a></li>
+              <li><i class=""></i> <a href="#hero"><span style="display: inline-block; background-color: #baebc2; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Home</span></a></li>
+              <li><i class=""></i> <a href="#about"><span style="display: inline-block; background-color: #baebc2; color: #302d2d; padding: 10px 20px; border-radius: 20px;">About us</span></a></li>
+              <li><i class=""></i> <a href="#services"><span style="display: inline-block; background-color: #baebc2; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Products</span></a></li>
+              <li><i class=""></i> <a href="#team"><span style="display: inline-block; background-color: #baebc2; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Team</span></a></li>
+              <li><i class=""></i> <a href="#contact"><span style="display: inline-block; background-color: #baebc2; color: #302d2d; padding: 10px 20px; border-radius: 20px;">Contact</span></a></li>
             </ul>
           </div>
 
@@ -1328,6 +1204,12 @@
         });
 
         $('#showProductLEDDisplay').click(function() {
+          var targetSection = $(this).data('target');
+            localStorage.setItem('targetSection', targetSection);
+            window.location.href = 'product-details.html';
+        });
+        
+        $('#showProductSmartBoard').click(function() {
           var targetSection = $(this).data('target');
             localStorage.setItem('targetSection', targetSection);
             window.location.href = 'product-details.html';

@@ -198,6 +198,18 @@ h6 {
   margin-top: 70px;
 }
 
+/* Custom CSS for fluid dropdown */
+.dropdown-menu {
+  min-width: unset !important; /* Remove the minimum width */
+  width: max-content !important; /* Set width to maximum content */
+  max-height: 80vh; /* Limit the maximum height */
+  overflow-y: auto; /* Enable vertical scrolling */
+}
+
+/* Adjustments for dropdown items */
+.dropdown-item {
+  white-space: normal; /* Allow wrapping for long content */
+}
 
 /*--------------------------------------------------------------
 # Navigation Menu
@@ -254,7 +266,7 @@ h6 {
   height: 2px;
   bottom: -6px;
   left: 0;
-  background-color: #106eea;
+  background-color: #baebc2;
   visibility: hidden;
   width: 0px;
   transition: all 0.3s ease-in-out 0s;
@@ -274,6 +286,7 @@ h6 {
   color: #106eea;
 }
 
+
 .navbar .dropdown ul {
   display: block;
   position: absolute;
@@ -287,20 +300,26 @@ h6 {
   background: #fff;
   box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
   transition: 0.3s;
+  
 }
+
 
 .navbar .dropdown ul li {
   min-width: 200px;
+  /*min-width: unset;*/
 }
 
-.navbar .dropdown ul a {
+
+.navbar .dropdown ul {
   padding: 10px 20px;
   font-weight: 400;
+  
 }
 
 .navbar .dropdown ul a i {
   font-size: 12px;
 }
+
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
