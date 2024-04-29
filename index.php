@@ -54,7 +54,7 @@
 
       <!-- <h1 class="logo"><a href="index.html">Plexus Technology Corporation<span>.</span></a></h1> -->
       <!-- Uncomment below if you prefer to use an image logo -->
-      <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a> 
+      <a href="index.php" class="logo"><img src="assets/img/logo.png" alt=""></a> 
 
       <nav id="navbar" class="navbar">
         <ul>
@@ -63,7 +63,7 @@
           <li class="dropdown"><a href="#services"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#portfolio">Other Products</a></li>
-              <li><p>Paragraph</p></li>
+              
             </ul>
           <!-- <li><a class="nav-link scrollto " href="#portfolio">Portfolio</a></li> -->
           <!--<li><a class="nav-link scrollto" href="#team">Team</a></li>-->
@@ -563,192 +563,34 @@
 
       </div>
     </section><!-- End Testimonials Section -->
-
+    <br>
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    <section id="portfolio" class="portfolio border border-success" style="background-image: url('media/ShoppingBackground (2).png'); background-repeat: no-repeat;
+  background-size: 100% 100%; padding-top: 100px; padding-bottom: 150px;">
+    <!--
+    <a href="https://www.freepik.com/free-photo/abstract-blur-shopping-mall_3982524.htm#query=electronic%20store%20background&position=19&from_view=keyword&track=ais&uuid=46c8305f-bae0-40dc-9760-82368d4ebc02">Image by lifeforstock</a> on Freepik
+    -->
       <div class="container" data-aos="fade-up">
 
-        <div class="section-title">
-          <h2 style="background-color: #baebc2">Other Products</h2>
-          <h3>Check our <span>Other Products</span></h3>
-          <p>These products are divided into three categories: Input Devices and Components (IDC),
-            Display Systems and Interactive Boards (DSIB), and Queue Management Systems (QMS).</p>
-        </div>
+      <div class="row">
+      <div class="col-lg-4 portfolio-item filter-app" style="padding-top: 40px;">
+        <!--<button class="btn">Click to open modal</button>-->
+      </div>
 
-        <div class="row" data-aos="fade-up" data-aos-delay="100">
-          <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">All</li>
-              <li data-filter=".filter-app" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">IDC</li>
-              <li data-filter=".filter-card" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">DSIB</li>
-              <li data-filter=".filter-web" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">QMS</li>
-            </ul>
-          </div>
-        </div>
+      <div class="col-lg-4 portfolio-item filter-app text-center">
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            
-            <img src="assets/img/portfolio/CP.png" class="img-fluid" alt="">
-            
-            <div class="portfolio-info">
-              <h4>Call Pad</h4>
-              <p>Price</p>
-              <a href="assets/img/portfolio/CP.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Call Pad"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-            
-          </div>
-          
+        <!--<button class="btn btn-success rounded-pill px-4 py-2" data-bs-toggle="modal" data-bs-target="#myModal" style="background-color: #28a745; border-color: #28a745;">
+          Click to Open Products Section
+        </button>-->
+        <button class="button-33" data-bs-toggle="modal" data-bs-target="#myModal" role="button">Click to Open Products Section</button>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/MK.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Metal Keyboard</h4>
-              <p>Price</p>
-              <a href="assets/img/portfolio/MK.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Metal Keyboard"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
+      </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/TM.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Touch Monitor</h4>
-              <p>Monitor</p>
-              <a href="assets/img/portfolio/TM.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Touch Monitor"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
+      <div class="col-lg-4 portfolio-item filter-app" style="padding-top: 40px;">
+        <!--<button class="btn">Click to open modal</button>-->
+      </div>
+      </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/RFID.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>RFID Reader</h4>
-              <p>RFID</p>
-              <a href="assets/img/portfolio/RFID.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="RFID Reader"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/DSD.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Digital Signage Display</h4>
-              <p>Signage</p>
-              <a href="assets/img/portfolio/DSD.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Digital Signage Display"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/DP.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Digital Podium & Audio Visual System</h4>
-              <p>Podium</p>
-              <a href="assets/img/portfolio/DP.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Digital Podium & Audio Visual System"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/BA.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Bill Acceptor</h4>
-              <p>Money Acceptor</p>
-              <a href="assets/img/portfolio/BA.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Bill Acceptor"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/CA.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Coin Acceptor</h4>
-              <p>Money Acceptor</p>
-              <a href="assets/img/portfolio/CA.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Coin Acceptor"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/TP.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Thermal Printer</h4>
-              <p>Printer</p>
-              <a href="assets/img/portfolio/TP.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Thermal Printer"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web">
-            <img src="assets/img/portfolio/QSK.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Queuing System Kiosk</h4>
-              <p>System</p>
-              <a href="assets/img/portfolio/QSK.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Queuing System Kiosk"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-              <button class="" id="showProductQueuingSystem" data-target="#QueuingSystemProduct"><i class="bx bx-link"></i></button>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/M.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>LCD Monitor</h4>
-              <p>Monitor</p>
-              <a href="assets/img/portfolio/M.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="LCD Monitor"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-              <button class="" id="showProductLCDMonitor" data-target="#LCDMonitorProduct"><i class="bx bx-link"></i></button>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-app">
-            <img src="assets/img/portfolio/CPU.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Mini CPU</h4>
-              <p>CPU</p>
-              <a href="assets/img/portfolio/DSD.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Mini CPU"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-              <button class="" id="showProductMiniCPU" data-target="#MiniCPUProduct"><i class="bx bx-link"></i></button>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/SIB.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Smart Interactive Board</h4>
-              <p>Interactive Board</p>
-              <a href="assets/img/portfolio/SIB.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Smart Interactive Board"><i class="bi bi-zoom-in"></i></a>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-              <button class="" id="showProductSmartBoard" data-target="#SmartBoardProduct"><i class="bx bx-link"></i></button>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/DFD.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Indoor/Outdoor Digital Dance Floor Led Display</h4>
-              <p>LED Display</p>
-              <a href="assets/img/portfolio/DFD.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Indoor/Outdoor Digital Dance Floor Led Display"><i class="bi bi-zoom-in"></i></a>
-              <button class="" id="showProductLEDDisplay" data-target="#LEDDisplayProduct"><i class="bx bx-link"></i></button>
-              <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card">
-            <img src="assets/img/portfolio/VW.png" class="img-fluid" alt="">
-            <div class="portfolio-info">
-              <h4>Video Wall</h4>
-              <p>Video Wall</p>
-              <a href="assets/img/portfolio/VW.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Video Wall"><i class="bi bi-zoom-in"></i></a>
-              <a href="product-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> 
-              <button class="" id="showProductVideoWall" data-target="#videoWallProduct"><i class="bx bx-link"></i></button>
-            </div>
-          </div>
-
-        </div>
-        
       </div>
     </section><!-- End Portfolio Section -->
 
@@ -1090,8 +932,233 @@
         </div>
 
       </div>
-    </section><!-- End Contact Section -->
+    </section>
+    
+    
+    <div class="modal fade" id="myModal">
+  <div class="modal-dialog modal-xl">
+    <div class="modal-content">
 
+      <!-- Modal Header -->
+      <div class="modal-header">
+        <h4 class="modal-title">Products</h4>
+        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+      </div>
+
+      <!-- Modal body -->
+      <div class="modal-body">
+      <div class="container" data-aos="fade-up">
+
+<div class="section-title">
+  <h2 style="background-color: #baebc2">Other Products</h2>
+  <h3>Check our <span>Other Products</span></h3>
+  <p>These products are divided into three categories: Input Devices and Components (IDC),
+    Display Systems and Interactive Boards (DSIB), and Queue Management Systems (QMS).</p>
+</div>
+
+<div class="row" data-aos="fade-up" data-aos-delay="100">
+  <div class="col-lg-12 d-flex justify-content-center">
+    <ul id="portfolio-flters">
+      <li data-filter="*" class="filter-active" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">All</li>
+      <li data-filter=".filter-app" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">IDC</li>
+      <li data-filter=".filter-card" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">DSIB</li>
+      <li data-filter=".filter-web" style="display: inline-block; background-color: #baebc2; border-radius: 20px;">QMS</li>
+    </ul>
+  </div>
+</div>
+
+<div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-app">
+  <div class="product-wrapper" style="position: relative;" >
+        <img src="assets/img/portfolio/CP.png" class="img-fluid" alt="">
+        <div class="container product-container" >
+            <h4>Call Pad</h4>
+            <p>Price</p>
+            <a href="assets/img/portfolio/CP.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Call Pad" style="position: absolute; top: 15px; right: 15px;"><i class="bi bi-zoom-in"></i></a>
+        </div>
+    </div>
+    <!--
+    <div class="portfolio-info">
+      <h4>Call Pad</h4>
+      <p>Price</p>
+      <a href="assets/img/portfolio/CP.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link" title="Call Pad"><i class="bi bi-zoom-in"></i></a>
+          -->
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+      <!--
+    </div>
+          -->
+
+  </div>
+  
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-app" >
+
+  <div class="product-wrapper" style="position: relative;" >
+    <img src="assets/img/portfolio/MK.png" class="img-fluid" alt="">
+    <div class="container product-container" >
+      <h4>Metal Keyboard</h4>
+      <p>Price</p>
+      <a href="assets/img/portfolio/MK.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Metal Keyboard" style="position: absolute; top: 15px; right: 15px;"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-app" >
+    <img src="assets/img/portfolio/TM.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>Touch Monitor</h4>
+      <p>Monitor</p>
+      <a href="assets/img/portfolio/TM.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Touch Monitor" style="position: absolute; top: 15px; right: 15px;"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+
+    </div>
+
+  </div>
+
+  <div class="col-lg-4 col-md-6 filter-app portfolio-item product-item">
+    <img src="assets/img/portfolio/RFID.png" class="img-fluid" alt="">
+
+    <div class="container product-container">
+    <h4>RFID Reader</h4>
+      <p>RFID</p>
+      <a href="assets/img/portfolio/RFID.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="RFID Reader"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    
+    </div>
+    <div class="portfolio-info">
+      
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-card">
+    <img src="assets/img/portfolio/DSD.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>Digital Signage Display</h4>
+      <p>Signage</p>
+      <a href="assets/img/portfolio/DSD.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Digital Signage Display"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-card">
+    <img src="assets/img/portfolio/DP.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>Digital Podium & Audio Visual System</h4>
+      <p>Podium</p>
+      <a href="assets/img/portfolio/DP.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Digital Podium & Audio Visual System"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+    
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-app">
+    <img src="assets/img/portfolio/BA.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>Bill Acceptor</h4>
+      <p>Money Acceptor</p>
+      <a href="assets/img/portfolio/BA.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Bill Acceptor"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-app">
+    <img src="assets/img/portfolio/CA.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>Coin Acceptor</h4>
+      <p>Money Acceptor</p>
+      <a href="assets/img/portfolio/CA.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Coin Acceptor"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-app">
+    <img src="assets/img/portfolio/TP.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>Thermal Printer</h4>
+      <p>Printer</p>
+      <a href="assets/img/portfolio/TP.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Thermal Printer"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-web">
+    <img src="assets/img/portfolio/QSK.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>Queuing System Kiosk</h4>
+      <p>System</p>
+      <a href="assets/img/portfolio/QSK.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Queuing System Kiosk"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-card">
+    <img src="assets/img/portfolio/M.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>LCD Monitor</h4>
+      <p>Monitor</p>
+      <a href="assets/img/portfolio/M.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="LCD Monitor"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-app">
+    <img src="assets/img/portfolio/CPU.png" class="img-fluid" alt="">
+    <div class="container product-container">
+    <h4>Mini CPU</h4>
+      <p>CPU</p>
+      <a href="assets/img/portfolio/DSD.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Mini CPU"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-card">
+    <img src="assets/img/portfolio/SIB.png" class="img-fluid" alt="">
+    <div class="container product-container">
+      <h4>Smart Interactive Board</h4>
+      <p>Interactive Board</p>
+      <a href="assets/img/portfolio/SIB.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Smart Interactive Board"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+      
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-card">
+    <img src="assets/img/portfolio/DFD.png" class="img-fluid" alt="">
+    <div class="container product-container">
+      <h4>Indoor/Outdoor Digital Dance Floor Led Display</h4>
+      <p>LED Display</p>
+      <a href="assets/img/portfolio/DFD.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Indoor/Outdoor Digital Dance Floor Led Display"><i class="bi bi-zoom-in"></i></a>
+      <!-- <a href="portfolio-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> -->
+    </div>
+  </div>
+
+  <div class="col-lg-4 col-md-6 portfolio-item product-item filter-card">
+    <img src="assets/img/portfolio/VW.png" class="img-fluid" alt="">
+    <div class="container product-container">
+      <h4>Video Wall</h4>
+      <p>Video Wall</p>
+      <a href="assets/img/portfolio/VW.png" data-gallery="portfolioGallery" class="portfolio-lightbox preview-link product-light-link" title="Video Wall"><i class="bi bi-zoom-in"></i></a>
+      <a href="product-details.html" class="details-link" title="More Details"><i class="bx bx-link"></i></a> 
+    </div>
+  </div>
+
+</div>
+
+</div>
+      </div>
+
+      <!-- Modal footer -->
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div><!-- End Contact Section -->
   </main><!-- End #main -->
 
   <!-- ======= Footer ======= -->

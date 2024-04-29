@@ -220,6 +220,7 @@
    * Porfolio isotope and filter
    */
   window.addEventListener('load', () => {
+    
     let portfolioContainer = select('.portfolio-container');
     if (portfolioContainer) {
       let portfolioIsotope = new Isotope(portfolioContainer, {
@@ -242,10 +243,23 @@
           AOS.refresh()
         });
       }, true);
+
+      // Function to arrange Isotope and refresh AOS when modal is shown
+    $('#myModal').on('shown.bs.modal', function () {
+      portfolioIsotope.arrange();
+      AOS.refresh();
+    });
+
     }
 
   });
 
+  /*
+  window.addEventListener('load', () => {
+    let modalPortfolioContainer = select('');
+
+  });
+*/
   /**
    * Initiate portfolio lightbox 
    */
