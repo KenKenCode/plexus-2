@@ -1205,16 +1205,16 @@ section {
   cursor: pointer;
   display: inline-block;
   font-family: CerebriSans-Regular,-apple-system,system-ui,Roboto,sans-serif;
-  padding: 7px 20px;
   text-align: center;
   text-decoration: none;
   transition: all 250ms;
   border: 0;
-  font-size: 16px;
+  font-size: 20px;
+  font-weight: bold;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  padding: 80px;
+  padding: 60px;
 }
 
 .button-33:hover {
@@ -1224,6 +1224,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio
 --------------------------------------------------------------*/
+.product-light-link:hover {
+  box-shadow: 0 0 10px rgba(3, 174, 253, 0.5);
+}
 .portfolio #portfolio-flters {
   padding: 0;
   margin: 0 auto 15px auto;
