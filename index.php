@@ -565,8 +565,8 @@
     </section><!-- End Testimonials Section -->
     <br>
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio border border-success" style="background-image: url('media/ShoppingBackground (2).png'); background-repeat: no-repeat;
-  background-size: 100% 100%; padding-top: 100px; padding-bottom: 150px;">
+    <section id="portfolio" class="portfolio" style="background-image: url('media/ShoppingBackground (2).png'); background-repeat: no-repeat;
+  background-size: 100% 100%; padding-top: 230px; padding-bottom: 250px;">
     <!--
     <a href="https://www.freepik.com/free-photo/abstract-blur-shopping-mall_3982524.htm#query=electronic%20store%20background&position=19&from_view=keyword&track=ais&uuid=46c8305f-bae0-40dc-9760-82368d4ebc02">Image by lifeforstock</a> on Freepik
     -->

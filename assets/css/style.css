@@ -1214,6 +1214,7 @@ section {
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
+  padding: 80px;
 }
 
 .button-33:hover {
