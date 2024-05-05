@@ -1,7 +1,7 @@
 <?php
 mysqli_report(MYSQLI_REPORT_ERROR | MYSQLI_REPORT_STRICT);
 error_reporting(E_ALL);
-
+session_start();
 
 $conn=mysqli_connect("localhost", "root", "", "plexus_db");
 
@@ -11,26 +11,61 @@ if (isset($_POST["login_button"])) {
     } else {
         $username = $_POST["userNameField"];
         $password = $_POST["passwordField"];
-
+        
+        // Print PHP variables' values for debugging (remove in production)
+        echo "<script>";
+        echo "console.log('Username: " . $username . "');";
+        echo "console.log('Password: " . $password . "');";
+        echo "</script>";
+        
         $login_query = "SELECT * FROM client_table WHERE client_username = ?";
         $login_stmt = mysqli_prepare($conn, $login_query);
-        mysqli_Stmt_bind_param($login_stmt, "s", $username);
-        mysqli_stmt_execute($login_stmt);
+        
+        if (!$login_stmt) {
+          echo "Error preparing statement: " . mysqli_stmt_error($login_stmt);
+          exit();
+        }
+        
+        mysqli_stmt_bind_param($login_stmt, "s", $username);
+        
+        if (!mysqli_stmt_execute($login_stmt)) {
+          echo "Error executing statement: " . mysqli_stmt_error($login_stmt);
+          exit();
+        }
+        
         $result = mysqli_stmt_get_result($login_stmt);
+        $num_rows = mysqli_num_rows($result);
+        echo '<script>alert("Number of rows returned: ' . $num_rows . '")</script>';
 
-        if (mysqli_num_rows($result) === 1) {
-            $row = mysqli_fetch_assoc($result);
-            if (password_verify($password, $row["client_password"])) {
-                $_SESSION["username"] = $username;
-                $_SESSION["clientID"] = $row["client_id"];
-                header("Location: index.php");
-                exit();
-            } else {
-                // Password does not match
-                echo '<script>alert("Wrong User Details")</script>';
-                $_SESSION['statusLogInWrongCred'] = "Wrong user details. Please try again.";
-            }
-        } else {
+if ($num_rows === 1) {
+  $row = mysqli_fetch_assoc($result);
+  $row_json = json_encode($row);
+  //echo '<script>alert("Row Data: ' . $row_json . '")</script>';
+  echo '<script>alert("Test Alert")</script>';
+  header("Location: index.php");
+  
+  
+  if (password_verify($password, $row["client_password"])) { 
+    /*
+    $_SESSION["username"] = $username;
+    $_SESSION["clientID"] = $row["client_id"];
+    */
+    
+    header("Location: index.php");
+    
+    
+    echo '<script>alert("Password Matches")</script>';
+    
+  }
+  
+  else {
+    // Password does not match
+    echo '<script>alert("Wrong User Details: Username - ' . $username . ' | Password - ' . $password . ' | Hash: ' . $row["client_password"] . '")</script>';
+    $_SESSION['statusLogInWrongCred'] = "Wrong user details. Please try again.";
+  }
+  
+  
+} else {
             // Username not found in the database
             echo '<script>alert("User not found. Register first")</script>';
         }
