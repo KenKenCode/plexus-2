@@ -42,7 +42,6 @@ if ($num_rows === 1) {
   $row_json = json_encode($row);
   //echo '<script>alert("Row Data: ' . $row_json . '")</script>';
   echo '<script>alert("Test Alert")</script>';
-  header("Location: index.php");
   
   
   if (password_verify($password, $row["client_password"])) { 

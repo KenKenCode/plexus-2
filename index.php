@@ -1,3 +1,8 @@
+<?php
+
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -896,6 +901,32 @@
           <iframe class="mb-4 mb-lg-0" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15445.957193496546!2d121.0909315104486!3d14.57117239887705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c32a38f257%3A0xd2cd1d7959268af3!2s28%2C%203%20Eusebio%2C%20Pasig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1713323721026!5m2!1sen!2sph" frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen></iframe>
           <!-- <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d15445.957193496546!2d121.0909315104486!3d14.57117239887705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397c7c32a38f257%3A0xd2cd1d7959268af3!2s28%2C%203%20Eusebio%2C%20Pasig%2C%20Metro%20Manila!5e0!3m2!1sen!2sph!4v1713323721026!5m2!1sen!2sph" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
         </div>
+
+        <div class="col-lg-6">
+            <form action="" method="POST" class="php-email-form" enctype="multipart/form-data">
+              <div class="row">
+                <div class="col form-group">
+                  <input type="text" name="name" class="form-control" id="client_name_email_id" placeholder="Your Name" required>
+                </div>
+                <div class="col form-group">
+                  <input type="email" class="form-control" name="email" id="client_email_id" placeholder="Your Email" required>
+                </div>
+              </div>
+              <div class="form-group">
+                <input type="text" class="form-control" name="subject" id="client_subject_email_id" placeholder="Subject" required>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" name="message" id="client_message_email_id" rows="5" placeholder="Message" required></textarea>
+              </div>
+              <div class="my-3">
+                <div class="loading">Loading</div>
+                <div class="error-message"></div>
+                <div class="sent-message">Your message has been sent. Thank you!</div>
+              </div>
+              <div class="text-center"><button type="submit">Send Message</button></div>
+            </form>
+          </div>
+
         </div>
 
         <div class="row" data-aos="fade-up" data-aos-delay="100">
@@ -1256,7 +1287,7 @@
   <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
   <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
   <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <!--<script src="assets/vendor/php-email-form/validate.js"></script>-->
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
@@ -1281,7 +1312,33 @@
             localStorage.setItem('targetSection', targetSection);
             window.location.href = 'product-details.html';
         });
+
+
+        $('.php-email-form').submit(function(event) {
+          event.preventDefault();
+
+          $.ajax({
+          url: 'contact.php',
+          method: 'POST',
+          data: {
+            name: $('#client_name_email_id').val(),
+            email: $('#client_email_id').val(),
+            subject: $('#client_subject_email_id').val(),
+            message: $('#client_message_email_id').val()
+          },
+          success: function(response) {
+            console.log(response);
+            
+          },
+          error: function(xhr, status, error) {
+            console.error(xhr.responseText);
+          }
+        });
+        })
+        
       });
+
+
         </script>
 </body>
 
