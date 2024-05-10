@@ -1334,7 +1334,7 @@
             console.error(xhr.responseText);
           }
         });
-        })
+        });
         
       });
 
