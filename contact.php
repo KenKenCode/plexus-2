@@ -30,12 +30,12 @@ $mail->SMTPOptions = array(
         'allow_self_signed' => true
     )
 );
-$mail->setFrom($email, $name);
+$mail->setFrom($email, $name . ' @ ' . $email);
 $mail->addAddress($recipientEmail); //recepient email address
 
 $mail->isHTML(true);
 $mail->Subject = $subject;
-$mail->Body = $message;
+$mail->Body = $message . '<br>Email address: ' . $email . '<br>Name: ' . $name;
 $mail->AltBody = strip_tags($message);
 
 if(!$mail->send()) {
@@ -53,11 +53,18 @@ if($_SERVER["REQUEST_METHOD"] == "POST") {
     $subject = $_POST['subject'];
     $message = $_POST['message'];
     */
-    $name = $_POST['name'];
-    $email = $_POST['email'];
-    $subject = $_POST['subject'];
-    $message = $_POST['message'];
+    $name = isset($_POST['name']) ? htmlspecialchars(trim($_POST['name'])) : '';
+    $email = isset($_POST['email']) ? filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) : '';
+    $subject = isset($_POST['subject']) ? htmlspecialchars(trim($_POST['subject'])) : '';
+    $message = isset($_POST['message']) ? htmlspecialchars(trim($_POST['message'])) : '';
     $recipientEmail = 'lobingcokenneth@gmail.com'; // Replace with organization's email
+
+
+    // Validate email
+    if (!$email) {
+        // Handle invalid email address
+        exit("Invalid email address.");
+    }
 
     // Debugging: Echo input values to check if they are correct
     echo "Name: " . $name . "<br>";
